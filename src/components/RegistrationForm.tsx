@@ -11,6 +11,13 @@ export default function RegistrationForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
+
+    const nameParts = form.name.trim().split(/\s+/);
+    if (nameParts.length < 2) {
+      setError("Lütfen adınızı ve soyadınızı giriniz.");
+      return;
+    }
+
     setLoading(true);
 
     const formData = new FormData(e.target as HTMLFormElement);
