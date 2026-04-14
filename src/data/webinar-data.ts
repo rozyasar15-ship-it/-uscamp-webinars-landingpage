@@ -22,11 +22,10 @@ export const webinarData = {
   speakers: [
     speakers.furkan,
     speakers.sena,
-    speakers.berk,
+    speakers.melih,
     speakers.alperen,
     speakers.miray,
     speakers.busra,
-    speakers.melih,
     speakers.ebubekir,
   ],
   socialProof: {
