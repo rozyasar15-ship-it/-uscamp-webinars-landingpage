@@ -7,7 +7,7 @@ const upcomingWebinars = [
   {
     title: "ABD'de Doktorluk: Gerçekler, Mitler ve Yol Haritası",
     speaker: "Dr. Furkan Hamamcı",
-    date: new Date("2026-04-26T17:00:00Z"),
+    date: new Date("2026-05-09T17:00:00Z"),
     time: "20:00",
     location: "Zoom (Online)",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=250&fit=crop",
@@ -15,7 +15,7 @@ const upcomingWebinars = [
   {
     title: "Klinik Deneyim (USCE) ve Güçlü CV Oluşturma",
     speaker: "Dr. Furkan Hamamcı & Seher Sena Elağöz, MD",
-    date: new Date("2026-05-03T17:00:00Z"),
+    date: new Date("2026-05-16T17:00:00Z"),
     time: "20:00",
     location: "Zoom (Online)",
     image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=250&fit=crop",
@@ -23,7 +23,7 @@ const upcomingWebinars = [
   {
     title: "USMLE Çalışma Stratejileri",
     speaker: "Melih Tarık Özdemir",
-    date: new Date("2026-05-10T17:00:00Z"),
+    date: new Date("2026-05-23T17:00:00Z"),
     time: "20:00",
     location: "Zoom (Online)",
     image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop",
