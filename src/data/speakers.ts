@@ -60,7 +60,8 @@ const speakersRaw = {
   ebubekir: {
     name: "Ebubekir Uçar",
     title: "USCAMP Mentor",
-    image: null, // görsel henüz yok
+    bio: "USMLE ve MATCH süreçlerini başarıyla tamamlayarak şu anda New York'ta Northwell Health'te patoloji asistanı olan bir USCAMP mentoru.",
+    image: "/ebubekir-ucar.jpg",
   },
 } satisfies Record<string, Speaker>;
 
