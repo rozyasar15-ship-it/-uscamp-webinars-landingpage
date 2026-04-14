@@ -27,9 +27,14 @@ export default function RegistrationForm() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
     })
-      .then(() => setSubmitted(true))
-      .catch(() => setError("Bir hata oluştu. Lütfen tekrar deneyin."))
-      .finally(() => setLoading(false));
+      .then((res) => {
+        if (!res.ok) throw new Error("Form gönderilemedi");
+        window.location.href = "https://uscamp.com.tr/webinar-kaydi-tamamlandi/";
+      })
+      .catch(() => {
+        setError("Bir hata oluştu. Lütfen tekrar deneyin.");
+        setLoading(false);
+      });
   };
 
   const inputClass =
