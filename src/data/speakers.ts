@@ -15,7 +15,7 @@ const speakersRaw = {
   furkan: {
     name: "Dr. Furkan Hamamcı",
     title: "USCAMP Kurucu",
-    bio: "ABD'de doktorluk sürecini bizzat yaşamış, yüzlerce Türk hekime mentorluk yapmış deneyimli bir rehber.",
+    bio: "CAMP Group kurucu ortağı olan ve ABD'de doktorluk kariyerine adım atmak isteyen yüzlerce Türk hekime mentorluk yapmış bir mentor.",
     image: "https://uscamp.com.tr/wp-content/uploads/2025/08/Furkan-Hamamci-2-scaled.jpg",
   },
   sena: {
