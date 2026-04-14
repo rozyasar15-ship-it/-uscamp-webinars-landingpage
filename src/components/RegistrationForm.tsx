@@ -45,7 +45,8 @@ export default function RegistrationForm() {
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 max-w-md mx-auto">
         <div className="text-center mb-6">
           <h2 className="text-2xl font-bold text-white mb-3">Ücretsiz Kayıt Ol</h2>
-          <div className="w-16 h-1 bg-[#e31e26] mx-auto" />
+          <p className="text-gray-400 text-sm">Formu doldurarak tüm seriye kayıt olabilirsiniz.</p>
+          <div className="w-16 h-1 bg-[#e31e26] mx-auto mt-3" />
         </div>
 
         {submitted ? (
