@@ -24,7 +24,7 @@ export const webinarData = {
     speakers.sena,
     speakers.melih,
     speakers.alperen,
-    speakers.miray,
+    speakers.kutay,
     speakers.busra,
     speakers.ebubekir,
   ],

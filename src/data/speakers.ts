@@ -53,7 +53,8 @@ const speakersRaw = {
   },
   kutay: {
     name: "Kutay Çelik, MD",
-    title: "USCAMP Mentor",
+    title: "USCAMP Öğrencisi",
+    bio: "2026 MATCH döneminde Bridgeport Hospital – Yale New Haven Health'te Preliminary Internal Medicine programına kabul alan bir USCAMP öğrencisi.",
     image: "/kutay-celik.jpg",
   },
   ebubekir: {
