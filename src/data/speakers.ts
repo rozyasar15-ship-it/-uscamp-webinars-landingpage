@@ -32,6 +32,7 @@ const speakersRaw = {
   alperen: {
     name: "Alperen Öztürk, MD",
     title: "USCAMP Mentor",
+    bio: "USMLE ve MATCH süreçlerini başarıyla tamamlayarak ABD'de psikiyatri alanında PGY-1 Resident olarak görev yapan, Mayo Clinic ve Johns Hopkins'te araştırma deneyimi kazanmış deneyimli bir mentor.",
     image:
       "https://uscamp.com.tr/wp-content/uploads/2025/09/Alperen-Ozturk-MD-Danisman-Mentor-jpg.jpg",
   },
