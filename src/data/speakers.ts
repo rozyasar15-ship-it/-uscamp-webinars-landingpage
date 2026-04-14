@@ -51,6 +51,11 @@ const speakersRaw = {
     title: "USCAMP Mentor",
     image: "/melih-tarik-ozdemir.jpg",
   },
+  kutay: {
+    name: "Kutay Çelik, MD",
+    title: "USCAMP Mentor",
+    image: "/kutay-celik.jpg",
+  },
   ebubekir: {
     name: "Ebubekir Uçar",
     title: "USCAMP Mentor",
