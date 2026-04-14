@@ -29,7 +29,7 @@ export const heroVariants: Record<string, HeroVariant> = {
     headline:
       "ABD'de Doktorluk Süreci Karmaşık Değil — Sadece Henüz Doğru Yol Haritasını Bilmiyorsun",
     highlight: "Karmaşık Değil",
-    sub: "4 haftalık ücretsiz webinar serimizde nereden başlayacağından match'e kadar her adımı adım adım anlatıyoruz.",
+    sub: "4 haftalık ücretsiz webinar serimizde nereden başlayacağından MATCH'e kadar her adımı adım adım anlatıyoruz.",
   },
   angle2_hook2: {
     headline: "Bu Yolculukta Zor Olan Sürecin Kendisi Değil — Yalnız Yürütmek",
