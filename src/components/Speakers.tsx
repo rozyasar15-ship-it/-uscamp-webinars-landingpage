@@ -40,21 +40,28 @@ export default function Speakers() {
           {webinarData.speakers.slice(4).map((s, i) => (
             <div
               key={i}
-              className="bg-white/5 border border-white/10 rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center hover:border-[#e31e26]/40 transition-colors w-[calc(50%-8px)] md:w-[calc(33.333%-11px)] lg:w-[calc(25%-12px)]"
+              className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden flex flex-col items-center text-center hover:border-[#e31e26]/40 transition-colors w-[calc(50%-8px)] md:w-[calc(33.333%-11px)] lg:w-[calc(25%-12px)]"
             >
-              <div className="mb-4">
-                <SpeakerAvatar speaker={s} size="lg" />
-              </div>
-              <h3 className="text-white text-base sm:text-lg font-bold leading-tight">
-                {s.name}
-              </h3>
-              <p className="text-[#e31e26] text-xs sm:text-sm font-medium mt-1">
-                {s.title}
-              </p>
-              {s.bio && (
-                <p className="text-gray-400 text-xs sm:text-sm mt-3 leading-relaxed">
-                  {s.bio}
+              <div className="p-5 sm:p-6 flex flex-col items-center text-center w-full flex-1">
+                <div className="mb-4">
+                  <SpeakerAvatar speaker={s} size="lg" />
+                </div>
+                <h3 className="text-white text-base sm:text-lg font-bold leading-tight">
+                  {s.name}
+                </h3>
+                <p className="text-[#e31e26] text-xs sm:text-sm font-medium mt-1">
+                  {s.title}
                 </p>
+                {s.bio && (
+                  <p className="text-gray-400 text-xs sm:text-sm mt-3 leading-relaxed">
+                    {s.bio}
+                  </p>
+                )}
+              </div>
+              {s.name.includes("Kutay") && (
+                <div style={{ background: "linear-gradient(90deg, #b8860b, #daa520, #f0d060, #daa520, #b8860b)", width: "100%", padding: "7px 12px", textAlign: "center" }}>
+                  <span style={{ fontSize: "11px", fontWeight: 500, color: "#3a2500", letterSpacing: "0.5px" }}>2026 MATCH Öğrencimiz</span>
+                </div>
               )}
             </div>
           ))}
