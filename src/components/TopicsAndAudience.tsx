@@ -58,7 +58,7 @@ const webinarSeries: WebinarEntry[] = [
     number: "04",
     title: "Başarı Hikayeleri & Soru-Cevap",
     date: "2 Haziran 2026",
-    speakerIds: ["berk", "alperen", "busra", "ebubekir", "miray"],
+    speakerIds: ["alperen", "miray", "kutay", "ebubekir"],
     groupLabel: "USCAMP Mentorları",
     topics: [
       "ABD'de MATCH'e kabul olan doktorların hikayeleri",
