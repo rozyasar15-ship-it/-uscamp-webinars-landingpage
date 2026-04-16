@@ -24,9 +24,9 @@ export const webinarData = {
     speakers.sena,
     speakers.melih,
     speakers.alperen,
-    speakers.kutay,
-    speakers.busra,
     speakers.ebubekir,
+    speakers.miray,
+    speakers.kutay,
   ],
   socialProof: {
     attendeeCount: "2,500+",

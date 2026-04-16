@@ -37,8 +37,9 @@ const speakersRaw = {
       "https://uscamp.com.tr/wp-content/uploads/2025/09/Alperen-Ozturk-MD-Danisman-Mentor-jpg.jpg",
   },
   miray: {
-    name: "Miray Kurtça",
+    name: "Miray Kurtça, MD",
     title: "USCAMP Mentor",
+    bio: "USMLE ve MATCH süreçlerini başarıyla tamamlamış, Baylor College of Medicine'da postdoktoral araştırmacı olarak görev yapan bir USCAMP mentoru.",
     image: "https://uscamp.com.tr/wp-content/uploads/2025/09/Miray-Kurtca-2.jpg",
   },
   busra: {
@@ -49,6 +50,7 @@ const speakersRaw = {
   melih: {
     name: "Melih Tarık Özdemir",
     title: "USCAMP Mentor",
+    bio: "USMLE sürecinde öğrencilere mentörlük sağlayan, sınav stratejisi ve çalışma planlaması konularında rehberlik eden bir USCAMP mentoru.",
     image: "/melih-tarik-ozdemir.jpg",
   },
   kutay: {
@@ -58,7 +60,7 @@ const speakersRaw = {
     image: "/kutay-celik.jpg",
   },
   ebubekir: {
-    name: "Ebubekir Uçar",
+    name: "Ebu Bekir Uçar, MD",
     title: "USCAMP Mentor",
     bio: "USMLE ve MATCH süreçlerini başarıyla tamamlayarak şu anda New York'ta Northwell Health'te patoloji asistanı olan bir USCAMP mentoru.",
     image: "/ebubekir-ucar.jpg",
