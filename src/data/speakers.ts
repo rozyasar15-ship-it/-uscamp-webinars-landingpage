@@ -19,7 +19,7 @@ const speakersRaw = {
     image: "https://uscamp.com.tr/wp-content/uploads/2025/08/Furkan-Hamamci-2-scaled.jpg",
   },
   sena: {
-    name: "Seher Sena Elağöz, MD",
+    name: "Seher Sena Elagöz, MD",
     title: "USCAMP Eğitmen & Mentor",
     bio: "USMLE ve MATCH süreçlerini başarıyla tamamlamış, öğrencilere staj deneyimi, CV güçlendirme ve mülakat aşamalarında rehberlik sağlayan deneyimli bir mentor.",
     image: "https://uscamp.com.tr/wp-content/uploads/2025/09/seher-scaled.jpg",
