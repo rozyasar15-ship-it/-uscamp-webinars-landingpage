@@ -10,6 +10,7 @@ type WebinarEntry = {
   number: string;
   title: string;
   date: string;
+  day: string;
   speakerIds: SpeakerId[];
   /** Konuşmacı başına title override — verilmezse speakers.ts'deki varsayılan kullanılır. */
   speakerTitleOverrides?: Partial<Record<SpeakerId, string>>;
@@ -23,6 +24,7 @@ const webinarSeries: WebinarEntry[] = [
     number: "01",
     title: "ABD'de Doktorluk: Gerçekler, Mitler ve Yol Haritası",
     date: "9 Mayıs 2026",
+    day: "Cumartesi",
     speakerIds: ["furkan"],
     speakerTitleOverrides: { furkan: "USCAMP Kurucu" },
     topics: [
@@ -35,6 +37,7 @@ const webinarSeries: WebinarEntry[] = [
     number: "02",
     title: "Klinik Deneyim (USCE) ve Güçlü CV Oluşturma",
     date: "16 Mayıs 2026",
+    day: "Cumartesi",
     speakerIds: ["furkan", "sena"],
     speakerTitleOverrides: { furkan: "USCAMP Kurucu & USCAMP Mentor" },
     topics: [
@@ -47,6 +50,7 @@ const webinarSeries: WebinarEntry[] = [
     number: "03",
     title: "USMLE Çalışma Stratejileri",
     date: "23 Mayıs 2026",
+    day: "Cumartesi",
     speakerIds: ["melih"],
     topics: [
       "Step 1 ve Step 2 CK için verimli çalışma planı",
@@ -58,6 +62,7 @@ const webinarSeries: WebinarEntry[] = [
     number: "04",
     title: "Başarı Hikayeleri & Soru-Cevap",
     date: "2 Haziran 2026",
+    day: "Salı",
     speakerIds: ["alperen", "miray", "kutay", "ebubekir"],
     groupLabel: "USCAMP Mentorları",
     topics: [
@@ -148,7 +153,7 @@ function WebinarDetail({ entry }: { entry: WebinarEntry }) {
       <div className="flex items-center gap-2 mb-6">
         <Calendar className="w-4 h-4 text-[#e31e26]" />
         <span className="text-sm text-gray-500">
-          {entry.date} • Pazar • 20:00 (Türkiye Saati)
+          {entry.date} • {entry.day} • 20:00 (Türkiye Saati)
         </span>
       </div>
       <div className="mb-6">
