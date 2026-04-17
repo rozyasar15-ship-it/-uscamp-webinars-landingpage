@@ -48,7 +48,7 @@ const speakersRaw = {
     image: "https://uscamp.com.tr/wp-content/uploads/2025/09/Busra-Cangut-1.jpg",
   },
   melih: {
-    name: "Melih Tarık Özdemir",
+    name: "Dr. Melih Tarık Özdemir",
     title: "USCAMP Mentor",
     bio: "USMLE sürecinde öğrencilere mentörlük sağlayan, sınav stratejisi ve çalışma planlaması konularında rehberlik eden bir USCAMP mentoru.",
     image: "/melih-tarik-ozdemir.jpg",
