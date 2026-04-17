@@ -134,7 +134,7 @@ export default function SocialProof() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.5 }}
         >
-          Tüm webinarlar ücretsizdir • Her Pazar 20:00 (Türkiye Saati) • Zoom üzerinden
+          Tüm webinarlar ücretsizdir • Zoom üzerinden
         </motion.p>
       </div>
     </section>
