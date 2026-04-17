@@ -14,7 +14,7 @@ const upcomingWebinars = [
   },
   {
     title: "Klinik Deneyim (USCE) ve Güçlü CV Oluşturma",
-    speaker: "Dr. Furkan Hamamcı & Seher Sena Elağöz, MD",
+    speaker: "Dr. Furkan Hamamcı & Seher Sena Elagöz, MD",
     date: new Date("2026-05-16T17:00:00Z"),
     time: "20:00",
     location: "Zoom (Online)",
@@ -22,7 +22,7 @@ const upcomingWebinars = [
   },
   {
     title: "USMLE Çalışma Stratejileri",
-    speaker: "Melih Tarık Özdemir",
+    speaker: "Dr. Melih Tarık Özdemir",
     date: new Date("2026-05-23T17:00:00Z"),
     time: "20:00",
     location: "Zoom (Online)",
