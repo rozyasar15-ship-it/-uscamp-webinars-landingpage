@@ -132,8 +132,11 @@ export default function Hero({ variant }: { variant: HeroVariant | null }) {
 
   return (
     <section className="relative overflow-hidden min-h-screen">
-      <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover opacity-60">
+      <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover opacity-60 hidden md:block">
         <source src="/hero-bg-small.mp4" type="video/mp4" />
+      </video>
+      <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover opacity-60 md:hidden">
+        <source src="/hero-bg-fast.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0" style={{ background: "linear-gradient(120deg, rgba(6,83,159,0.6) 0%, rgba(0,0,0,0.45) 30%, rgba(0,0,0,0.45) 70%, rgba(227,30,38,0.6) 100%)" }} />
       <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#e31e26]/15 rounded-full blur-3xl" />
